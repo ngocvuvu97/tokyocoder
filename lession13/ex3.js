@@ -1,0 +1,8 @@
+var a = [1, 2, 4, 8, 16];
+/**
+ * Sử dụng vòng lặp for để hiển thị ra màn hình các phần tử của mảng a theo thứ tự ngược lại:
+ */
+var lent=a.length;
+for(i=lent-1 ; i>=0 ; i--){
+    console.log(a[i])
+}
